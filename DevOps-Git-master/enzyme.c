@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "enzyme.h"
+#include "enzyme.azeaze"
 
 struct enzyme {
     char *nom;
