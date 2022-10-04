@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "enzyme.h"
-
+// delete bug 
 struct enzyme {
     char *nom;
     int poids;
