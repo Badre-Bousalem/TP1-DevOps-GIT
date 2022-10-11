@@ -105,4 +105,5 @@ void afficheMenu() {
     printf("3. Sauvegarder\n");
     printf("4. Ouvrir un fichier\n");
     printf("5. Supprimer\n");
+    printf("6.changement proposer par sayed drissi\n");
 }
