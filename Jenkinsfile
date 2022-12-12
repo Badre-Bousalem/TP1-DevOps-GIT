@@ -24,6 +24,12 @@ pipeline {
             sh "docker build . -t my-app"
             }
         }
+        stage('Push docker image to registry') {
+            steps {
+                bat 'docker login -u amineazeeza -p mdpp'
+                bat 'docker push amineazeeza/my-app:1.0'
+            }
+        }
 
     }
 
