@@ -1,2 +1,2 @@
-FROM unbuntu:latest
+FROM ubuntu:latest
 RUN echo aa
